@@ -1,0 +1,817 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 1;
+}
+
+ header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+
+ header .logo{
+   margin-left:210px ;
+   padding: 19px;
+
+ }
+
+
+ header .nav{
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-right: 110px;
+ }
+
+ header .nav ul{
+    list-style: none;
+
+ }
+
+
+ header .nav ul li{
+   float: left;
+   padding-right: 35px;
+   padding-top: 15px;
+   font-weight: bold;
+ }
+
+
+ header .nav ul li a{
+   text-decoration: none;
+   color: rgb(47, 43, 43);
+   text-transform: uppercase;
+   font-size: 16px;
+ }
+
+ header .nav ul li a:hover{
+   color: #0b41f4;
+ }
+
+
+ .checkbtn {
+  display:none;
+  font-size: 30px;
+  color: rgba(0,0,0,0.9);
+  float: right;
+  line-height: 80px;
+  margin-right: 170px;
+  position: fixed;
+ }
+
+ #check {
+  display:none;
+ }
+
+
+
+
+ .section1{
+  background-color:#f9f9ff;
+  width: 100%;
+  height: 665px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 75px;
+
+ }
+
+ .mafi1, .mafi2{
+  width: 50%;
+ }
+
+
+ .mafi1{
+  margin-left: 230px;
+  margin-top: 120px;
+  line-height: 22px;
+ }
+
+
+ .mafi2{
+  padding-right: 120px;
+ }
+
+
+ .mafi2 img{
+  width: 75%;
+  height:auto;
+ }
+
+
+ .mafi1 h3{
+  font-weight: normal;
+  margin-left: 4px;
+  font-size: 14px;
+  letter-spacing: 2px;
+
+ }
+
+
+ .mafi1 h1{
+  font-size: 60px;
+ }
+
+
+
+ .mafi1 p{
+  color: rgba(0,0,0,0.5);
+  margin-right: 10px;
+ }
+
+
+ .mafi1 input{
+  padding: 12px 12px;
+  background: linear-gradient(40deg, #8893f8 40%, #4caff6 100%);
+  color: white;
+  border: 1px solid #8393ff;
+  font-size: 15px;
+  margin-bottom: 150px;
+  cursor: pointer;
+  
+ }
+
+
+
+ .mafi1 input:hover{
+  box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
+  transition: all 0.5s ease-in 0.1s;
+  outline: none;
+  color: black;
+ }
+ 
+ 
+
+
+
+.section2{
+  width: 100%;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: myriad;
+}
+
+
+.section2 div{
+  width: 40%;
+  margin: 0px auto;
+}
+
+
+.section2 img{
+  width: 90%;
+  height: auto;
+  padding-left: 140px;
+  background-color: white;
+}
+
+
+.text3 h3{
+  font-weight: normal;
+}
+
+
+.text3 h1{
+  font-size: 40px;
+  margin-bottom: 55px;
+}
+
+
+.text3 p{
+  color: rgb(156, 150, 150);
+  width: 70%;
+  line-height: 22px;
+}
+
+
+.text3 input{
+  padding:12px 12px;
+  margin-top: 15px;
+  background: linear-gradient(40deg, #9aa3fc 40%, #4ab1fb 100%);
+  color: #f9f9ff;
+  border: 1px solid #8393ff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.text3 input:hover{
+  box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
+  transition: all 0.5s ease-in 0.1s;
+  outline: none;
+  color: black;
+}
+
+
+.text3{
+  line-height: 22px;
+}
+
+
+
+.section3{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 650px;
+}
+
+
+.firsttext h1{
+  font-size: 40px;
+  line-height: 10px;
+}
+
+
+.firsttext p{
+  color: rgba(0,0,0,0.5);
+  width: 670px;
+  margin: 0 auto;
+
+}
+
+
+.service{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.ser1, .sre2{
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.ser2{
+  padding-top: 40px;
+}
+
+
+.ser1 div, .ser2 div{
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+
+.service i{
+  font-size: 40px;
+  color: rgba(0,0,0,0.7);
+}
+
+.service h1{
+  font-size: 20px;
+}
+
+
+.service p{
+  color: rgba(0,0,0,0.5);
+  width:325px;
+  margin-left: 30px;
+}
+
+
+.ser1 div:hover{
+  background-color: #171718;
+  border: 2px solid rgb(255, 71, 77);
+  color: rgb(33, 102, 240);
+  border-radius: 2%;
+}
+
+
+.ser2 div:hover{
+  background-color: #141416;
+  border: 2px solid rgb(255, 129, 71);
+  color: rgb(84, 4, 255);
+  border-radius: 2%;
+ }
+
+ .ser1 div:hover p, .ser2 div:hover p{
+  color: white;
+ }
+
+
+ 
+ .ser1 div:hover i, .ser2 div:hover i{
+  color: rgb(102, 81, 239);
+ }
+
+
+
+ .section4{
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(40deg, #8d98fe 40%, #5db9fa 100%);
+ }
+
+ .section4 div{
+  float:left ;
+  width: 20%;
+  position: relative;
+  top: 100px;
+  left: 150px;
+ }
+
+
+ .section4 h1{
+  font-size: 40px;
+  line-height: 0;
+  color: white;
+ }
+
+.section4 .mf6{
+  text-align: center;
+}
+
+.section4 h1:hover{
+  color: #070707;
+}
+
+
+
+.section5{
+  width: 100%;
+  margin-top: 140px;
+}
+
+
+.mf10 h1{
+  font-size: 40px;
+  color: #252424;
+  line-height: 2px;
+  text-align: center;
+}
+
+
+.mf10 p{
+  color:rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+
+.section5 .imgg{
+  width: 75%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+
+.section5 .imgg div{
+  width: 340px;
+  height: 339px;
+  padding-bottom: 85px;
+  text-align: center;
+}
+
+
+.section5 .image h1{
+  color: rgba(0,0,0,0.9);
+  font-size: 20px;
+}
+
+.section5 .image p{
+  color: rgba(0,0,0,0.7);
+  line-height: 0;
+}
+
+
+.section5 figure{
+  background: linear-gradient(40deg, #4c5eff 40%, #89ceff 100%);
+  width: 340px;
+  height: 339px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 3%;
+}
+
+
+.section5 figure:hover img{
+  opacity: .3;
+  transition: all .3s ease-in-out;
+}
+
+
+.section6{
+  width: 100%;
+  height: 700px;
+  margin-top: 150px;
+  
+}
+
+
+.section6 .mf11{
+  text-align: center;
+}
+
+.section6 .mf11 h1{
+  font-size: 40px;
+  line-height: 0;
+}
+
+.section6 .mf11 p{
+  color: rgba(0,0,0,0.7);
+}
+
+
+.section6 .card{
+  width: 75%;
+  height: auto;
+  display: flex;
+  justify-content:space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+
+
+.section6 .mf12{
+  width: 85%;
+  height: 600px;
+  background-color: #f9f9ff;
+  text-align: center;
+  border: 1px solid rgba(0,0,0, 0.01);
+}
+
+
+
+.section6 .mf12 h4{
+  font-size: 30px;
+  font-family: Bahnschrift;
+  width: 80px;
+  height: 80px;
+  border: 30px solid rgba(187, 194, 247, 0.4);
+  border-radius: 100px;
+  margin: 0 auto;
+}
+
+.card .mf12 h4{
+  margin-top: 40px;
+}
+
+
+.section6 .mf12 h1{
+  font-size: 35px;
+}
+
+.section6 .mf12 h2{
+  font-size: 20px;
+  color: rgba(0,0,0,0.9);
+}
+
+.section6 .mf12 p{
+  font-size: 15px;
+  color: rgba(0,0,0,0.5);
+}
+
+
+.section6 .mf12 input{
+  outline: none;
+  background: linear-gradient(40deg, #8d98fe 40%, #5db9fa 100%);
+  border: 1px solid #8393ff;
+  padding: 6px 15px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+ 
+
+.section6 .mf12 input:hover{
+  box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
+  transition: all 0.5s ease-in 0.1s;
+  outline: none;
+  color: black;
+}
+
+
+.section6 .mf12:hover{
+  color: white;
+  background: linear-gradient(40deg, #8d98fe 40%, #5db9fa 100%);
+  transition: all 0.25s ease-in;
+  transform: scale(1.05);
+  border: 1px solid rgba(130,147,255, 0.5);
+  box-shadow: 0 8px 12px 0 rgba(0,0,0, 0.5);
+  border-radius: 10px;
+}
+
+
+.mf12 .tm1:hover{
+  color: white;
+}
+
+
+.mf12 p:hover{
+  color:black;
+  font-size: 20px;
+}
+
+
+
+footer{
+  background-color:rgb(20, 0, 72) ;
+  color: white;
+  margin-top: 100px;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+}
+
+
+footer .foot{
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+
+
+ .foot .foot1 p{
+  color:rgba(243, 240, 254, 0.7);
+
+}
+
+footer .foot .foot1 input{
+  padding: 10px 150px 10px 10px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+}
+
+
+footer .foot .foot1 button{
+  padding: 8px 15px;
+  background: linear-gradient(40deg, #8d98fe 40%, #5db9fa 100%);
+  outline: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+
+
+}
+
+footer .foot .foot1 button:hover{
+  color: white;
+}
+
+footer .foot .foot1 i{
+  font-size: 16px;
+  cursor: pointer;
+  padding: 3px 6px;
+}
+
+
+footer .foot .foot1 i:hover{
+  color: #8491ff;
+}
+
+
+
+@media (max-width:768px){
+  header{
+    width: 100%;
+    height: auto;
+  }
+  header .logo{
+    margin-left: 30px;
+    padding: 20px;
+  }
+
+  .checkbtn{
+    display: block;
+  }
+
+  header .nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #f9f9ff;
+    top: 54px;
+    left: 200%;
+    transition: all .1s;
+    
+  }
+
+  header .nav ul li{
+    line-height: 30px;
+    clear: both;
+    margin-top: 15px;
+  }
+
+
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+header .nav ul li a{
+  font-size: 20px;
+  text-align: center;
+}
+
+
+}
+
+
+@media (max-width:768px){
+ .section1 {
+  width: 100%;
+  display: block;
+  height: auto;
+ }
+
+ .mafi1{
+  margin: auto;
+  padding: 0px;
+ }
+
+ .mafi1 h3{
+  font-size: 15px;
+  letter-spacing: 1px;
+ }
+
+ .mafi1 h1{
+  font-size: 25px;
+ }
+
+
+ .mafi2 img{
+  margin-left: 90px;
+  width: 100%;
+  height: auto;
+ }
+
+.section2{
+  display: block;
+  width: 100%;
+  height: 100vh;
+  top: 150px;
+  position: relative;
+}
+
+.section2 img{
+  position: relative;
+  right: 120px;
+}
+
+.section2 div{
+  width: 100%;
+}
+
+.text3{
+  position: relative;
+  left: 15px;
+  text-align: center !important;
+}
+
+.text3 h3{
+  font-size: 14px;
+  color: rgba(0,0,0, 0.8);
+}
+
+.text3 h1{
+  font-size: 30px;
+  color: rgba(0,0,0,0.9);
+}
+
+.text3 p{
+  color: rgba(0,0,0,0.9);
+  margin-left: 50px !important;
+}
+
+.section3{
+  width: 100%;
+  position: relative;
+  top: 100px;
+}
+
+.firsttext h1{
+  font-size: 30px;
+  color: rgba(0,0,0,0.9);
+}
+
+.firsttext p{
+  width: 80%;
+}
+
+.ser1 div, .ser2 div{
+  clear: left;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.section4{
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  top: 200px;
+  clear: left;
+}
+
+.section4 .mf6{
+  clear: left;
+  margin-left: 35px;
+}
+
+.section5{
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 200px;
+}
+
+
+.section5 .mf10 h1{
+  font-size: 30px;
+}
+
+
+.section6 .mf11 h1{
+  font-size: 35px;
+}
+
+
+.section6 .mf11 p{
+  width: 80%;
+  margin: auto;
+}
+
+.section6 .card{
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  left: 40px;
+}
+
+.mf12{
+  margin-top:60px;
+}
+
+
+footer{
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  top: 127em;
+}
+
+footer .foot{
+  display: block;
+  position: relative;
+  top: 100px;
+}
+
+  .foot1 p{
+  width: 80%;
+  
+}
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
